@@ -1,0 +1,360 @@
+DA40-G1000 (Ted Yin v0.6)
+-------------------------
+
+.. role:: red
+   :class: red
+
+.. role:: everysymbol
+   :class: everysymbol
+
+Initial
+=======
+- Papers - A.R.O.W.
+- Controls - free & correct
+- Mags. - key out
+- Mixture - idle cutoff
+- Throttle - idle
+- Electrical - off
+- Essential Bus - off
+- Avionics - off
+- Master - on
+- Fuel Pump - check
+- Fuel - note
+- Flaps - check & set T/O
+- Lights/Pitot - test
+- Master - off
+- Hobbs Time - note
+
+Walkaround
+==========
+- Canopy/Door - check
+- Fuel/Oil - test/sample
+- Caps/Drains/Vents
+- Surfaces/Controls
+- Stall Strips/Fairings
+- Exhaust/Antennas
+- Prop/Air Intakes x3
+- Pitot/Static/Stall
+- Gear/Tires/Brakes
+- Ties/Chocks
+- Final Walkaround
+
+Pre-Start
+=========
+- Rear Door - secure
+- Rudder Pedals - adjust
+- Seat Belts
+- Parking/Brakes - test/set
+- Circuit Brkrs. - check
+- Passenger - brief
+- Strobe (ACL) - on
+- Avionics - off
+- Fuel Selector - least
+- Canopy - pos. 1/2
+
+Start
+=====
+- Prime
+
+  - Mixture - idle cutoff
+  - Prop - high RPM
+  - Friction - adjust
+  - Master Bat. - on
+  - Throttle - 1.2"
+  - Electric Pump - on
+  - Warm
+
+    - Mixture - 1-3 sec
+  - Cold
+
+    - Mixture - 3-5 sec
+    - Throttle - 0.4"
+- "Prop Clear!"
+- Mags. - start
+- Throttle - 1000 RPM
+- Oil Pressure - 15 secs.
+- Electric Pump - off
+- Master Alt. - on
+- Engine Inst. - no Xs
+- Volts/Amps - [25-30] [>0]
+- Fuel Pressure - 14-35 psi
+- Mixture - lean (peak)
+
+Pre-Taxi
+========
+- Flaps - up, then T/O
+- Lights - as required
+- Avionics - on/set
+- GPS - DB date
+- Fuel Totalizer - enter
+- ATIS - PFD/backup/AP(?)
+- Radio - test
+- Transponder - squawk
+- Check - TC/AI/HSI<->MC
+- Clearance - obtain
+- Brakes - release/test
+
+Run-Up
+======
+- Parking Brake - set
+- Seat Belts - check
+- Canopy/Door - lock
+- Door Warning - off
+- Flight Controls - correct
+- Instruments - scan
+- Alternate Static - check
+- AP - MET/HDG
+- Trim - T/O
+- Fuel Selector - fullest
+- Hdg./Alt. Bugs
+- GPS/Status Bar/Ann. Test
+- MFD Range/Track Up
+- Comm/Nav/VOR/FP
+- Mixture - rich
+- Throttle - 2000 RPM
+- Cycle Prop x3 - 250-500
+- Mags. L/R - 175, 50.
+- Alternate Air - check
+- Engine Inst. - check
+- Idle Check
+- Throttle - 1000 RPM
+- Mixture - lean
+- Lights - as required
+- ADSB Handheld - on
+
+Pre-Takeoff
+===========
+- Abort Plan/Lost Comm.
+- Canopy/Door - lock
+- Fuel Selector - fullest
+- Flaps - T/O
+- Mixture - rich
+- Prop - high RPM
+- Electric Pump - on
+- Pitot Heat - as required
+- Review Airspeeds
+- Time - note/start
+
+Takeoff
+=======
+- "Lights, Camera, Action"
+
+  - Mixture/Prop/Throttle
+- Engine Inst. - green
+- Vr - 59; then 67-60 KIAS
+- Safe Altitude
+
+  - Prop - 2400 RPM
+  - Elect. Pump - off
+  - Ldg. Light - off
+
+
+Climb
+=====
+- Vy (T/O)
+
+  - 67-54 KIAS
+  - 68 minus 1.8 for each 100 lbs under 2646
+
+- Cruise
+
+  - Flaps - up
+  - Vy: 76-60 KIAS
+
+- Prop - 2400 RPM
+- Mixture - rich
+
+  - >5000 hold const. EGT
+- Throttle - full
+- Engine Inst. - green
+- Trim - as required
+- High Altitude - pump on
+
+Cruise
+======
+- Flaps - up
+- Throttle - 21-24"
+- Prop - 1800-2400 RPM
+- Mixture
+
+  - Higher Power - richen
+  - Economy: max EGT & <=75%
+
+    - Power: 100°F/55°C lower
+- Flow Check (:everysymbol:`15 min`)
+
+  - Trim, Fuel
+  - Mixture, Prop, Throttle
+  - Flaps, Engine Inst.
+  - Pump, Mag., Master
+- CHT: 150-400°F
+- Oil: 165-220°F
+
+Descent
+=======
+- Mixture - richen slowly
+- Prop - 1800-2400 RPM
+- Throttle - as required
+- High Altitude - pump on
+- Flow Check
+- CHT Cool Down
+
+  - <= 50°F/22.8°C pm
+
+Pre-Landing
+===========
+- ATIS/Rwys & Patterns
+- "CCGUMPSF"
+
+  - G: Fuel Selector
+  
+    - downwind/fullest
+  - M: Mixture - rich
+  - P: Elect. Pump - on
+  - P: Prop - high RPM
+  - S: Seat Belts - secure
+  - F: Flaps - as required
+
+  - T/O <108 KIAS
+  - LDG <91 KIAS
+- Trim - as required
+- Ldg. Light - on
+- Approach - 73-58 KIAS
+
+Go Around
+=========
+- Throttle - full
+- Vy - 67-54 KIAS
+- Flaps - T/O
+- Safe Altitude
+
+  - Prop - 2400 RPM
+  - Elect. Pump - off
+  - Cruise Climb
+
+Post-Landing
+============
+- Throttle - 1000 RPM
+- Mixture - lean
+- Flaps - up
+- Elect. Pump - off
+- Pitot Heat - off
+- Trim - T/O
+- Lights - as required
+- Clearance - obtain
+
+Shutdown
+========
+- ELT - check (121.5)
+- Avionics - off
+- Electrical - off
+
+  - ACL Strobes - on
+- Throttle - 1000 RPM
+- Mags. - off then both
+- Mixture - idle cutoff
+- Mags. - key out
+- Tach Time - note
+- Master - off
+
+Post-Flight
+===========
+- ADSB Handheld - off
+- Tiedowns/Chocks
+- Pitot Cover
+- Gust Lock
+- Close Flight Plan
+- Hobbs Time - note
+- Check Under Seats
+- Canpoy/Door - lock
+- Post-Flight Walkaround
+
+Engine Failure
+==============
+- Short Flow
+
+  - Fuel Selector - fullest
+  - Mixture - full/check
+  - Elect. Pump - on
+  - Alternate Air - on
+  - Mags. - check all
+- :red:`Glide and Trim`
+
+  - :red:`Speed: 76-60 KIAS`
+  - :red:`Ratio: 8.8, 1.45nm/1kft`
+- Wind and Landing Site
+- Longer Flow
+
+  - Engine Inst.
+  - Short Flow Again
+
+- Wind Restart
+
+  - Airspeed >= 70 KIAS
+  - Short Flow
+  - Mags. - :red:`both`
+  - Mixture - lean and slowly richen
+
+- Stationary Restart
+
+  - Airspeed >= 80 KIAS
+  - Electrical - off
+  - Avionics - off
+  - Master - on
+  - Mags. - :red:`start`
+
+
+- :red:`No Restart`
+
+  - Fuel Selector - off
+  - Mixture - idle cutoff
+  - Mags. - off
+  - Master - off
+  - Belt and Seat - check
+  - Unlatch Door
+  - Brace
+
+CO Contamination
+================
+
+- Cabin Heat - off
+- Ventilation - open
+- Emergency Windows - open
+- Forward Canopy
+
+  - partially open
+  - :red:`DO NOT lock/unlock rear door during flight`
+
+Airspeeds (KIAS)
+================
+
+- Weights
+
+  - 2646/2535/2205/1874 lbs
+- Vr - 59
+- Vy
+
+  - Up - 76/73/68/60
+  - T/O - 67/66/60/54
+- Best Glide
+
+  - 76/73/68/60
+  - 70 @ 2300 lbs
+- Va
+
+  - MÄM 40-227
+
+    - no - 108 @ 2161-2535
+    - yes - 111 @ 2284-2646
+  - below 2161/2284 - 94
+  - 101 @ 2300 lbs
+
+- Approach Speeds
+
+  - Engine Out
+
+    - Up - 76/73/68/60
+    - T/O - 74/72/66/59
+    - LDG - 73/71/63/58
+
+  - Normal - 73/71/63/58

@@ -1,0 +1,238 @@
+C172S-G1000 (Ted v1.2)
+-------------------------
+
+.. role:: red
+   :class: red
+
+.. role:: everysymbol
+   :class: everysymbol
+
+Initial
+=======
+- Papers - A.R.O.W.
+- Control Lock - off
+- Mags. - key out
+- Mixture - idle cutoff
+- Throttle - idle
+- Avionics - off
+- Fuel Shutoff - on
+- Fuel - both
+- Master - on
+- Fuel - note
+- Flaps - down
+- Lights/Pitot - test
+- Avionics on/off - fans
+- Master - off
+- Hobbs Time - note
+
+Walkaround
+==========
+- Fuel/Oil - dip/sample
+- Caps/Drains/Vents
+- Surfaces/Controls
+- Exhaust/Antennas
+- Prop/Belt/Air Intake
+- Pitot/Static/Stall
+- Gear/Tires/Brakes
+- Ties/Baggage Door
+- Final Walkaround
+
+Pre-Start
+=========
+- Doors - secure
+- Belts/Seat Track
+- Brakes - check, set
+- Circuit Brkrs. - check
+- Passenger - brief
+- Beacon - on
+- Avionics - off
+- Fuel - both
+
+Start
+=====
+- Stby. Battery - test/arm
+- Engine Ind. - no Xs
+- Volts - [E>24] [M<1.5]
+- Amps - S<0/ann on
+- Prime:
+
+  - Mixture - idle cutoff
+  - Brakes - secure
+  - Master - on
+  - Throttle - slight
+  - Aux. Pump - on
+  - Mixture - prime
+
+    - warm: 0-3 sec
+    - cold: 3-5 sec
+  - Aux. Pump - off
+- Mixture - 3/4 rich
+- "Prop Clear!"
+- Mags. - start
+- Throttle - 1000 RPM
+- Oil Pressure - 30 secs.
+- Volts/Amps - [>26] [>0]
+- Mixture - lean for taxi
+
+Pre-Taxi
+========
+- Flaps - up
+- Lights - as required
+- Avionics - on/set
+- GPS - DB date
+- Fuel Totalizer - enter
+- ATIS - PFD/backup/AP(?)
+- Radio - test
+- Transponder - squawk
+- Check - TC/AI/HSI<->MC
+- Clearance - obtain
+- Brakes - test
+
+Run-Up
+======
+- Brakes - set
+- Seat Belts - check
+- Doors/Windows - secure
+- Flight Controls - correct
+- Instruments - scan
+- Alternate Static - check
+- AP - MET/HDG
+- Trim - takeoff
+- Fuel - on/both
+- Hdg./Alt. Bugs
+- GPS/Status Bar/Ann. Test
+- MFD Range/Track Up
+- Comm/Nav/VOR/FP
+- Mixture - rich
+- Throttle - 1800 RPM
+- Mags. - 150, 50
+- Engine Inst. - check
+- Idle Check
+- Throttle - 1000 RPM
+- Mixture - lean
+- Lights - as required
+- ADSB Handheld - on
+
+Pre-Takeoff
+===========
+- Abort Plan/Lost Comm.
+- Fuel - on/both
+- Flaps - 0-10°
+- Mixture - rich
+- Aux. Pump - off
+- Pitot heat - as required
+- Review Airspeeds
+- Time - note/start
+
+Takeoff
+=======
+- "Lights, Camera, Action"
+
+  - Mixture/Throttle
+- Engine Inst. - green
+- Vr - 55 kts
+- Vx - 62 kts, Vy - 74 kts
+
+Climb / Cruise
+==============
+- Cruise Climb - 75-85 kts
+
+  - Flaps - up
+
+- Mixture - lean >3000'
+
+- Flow Check (:everysymbol:`15 min`)
+
+  - Fuel, Trim
+  - Flaps, Engine Inst.
+  - Mixture, Throttle
+  - Master, Mag., Pump
+
+Descent
+=======
+- Mixture - richen slowly
+- Throttle - as required
+- Flow Check
+
+Pre-Landing
+===========
+- ATIS/Rwys & Patterns
+- "CCGUMPSF"
+
+  - G: Fuel - on/both
+  - M: Mixture - rich
+  - S: Seat Belts - secure
+  - F: Flaps - as required
+- Trim - as required
+- Ldg. Light - on
+- Approach - 80-65 kts
+
+Post-Landing
+============
+- Throttle - 1000 RPM
+- Mixture - lean
+- Flaps - up
+- Pitot Heat - off
+- Trim - takeoff
+- Lights - as required
+- Clearance - obtain
+
+Shutdown
+========
+- ELT - check (121.5)
+- Avionics - off
+- Lights - off
+
+  - Beacon - on
+- Throttle - 1000 RPM
+- Mags. - off then both
+- Mixture - idle cutoff
+- Mags. - key out
+- Master - off
+- Tach Time - note
+- Stby. Battery - off
+
+Post-Flight
+===========
+- ADSB Handheld - off
+- Tiedowns/Chocks
+- Pitot Cover
+- Fuel - switch to L/R
+- Gust Lock
+- Close Flight Plan
+- Hobbs Time - note
+- Check Under Seats
+- Cabin / Baggage - lock
+- Post-Flight Walkaround
+
+Engine Failure
+==============
+- Short Flow
+
+  - Fuel - on/both
+  - Mixture - full/check
+  - Electrical Pump - on
+  - Alternate Air - on
+  - Mags. - check all
+- :red:`Glide and Trim`
+
+  - :red:`Speed: 68 kts`
+  - :red:`Ratio: 9, 1.48nm/1000ft`
+- Wind and Landing Site
+- Longer Flow
+
+  - Engine Indicators
+  - Short Flow Again
+
+- :red:`No Restart`
+
+  - Fuel - off
+  - Mixture - idle cut-off
+  - Prop/Throttle - off
+  - Mags. - off
+  - Master - off
+  - Belt and Seat - check
+  - Unlatch Door
+  - Brace
+
+- Approach - 80/70/65 kts
