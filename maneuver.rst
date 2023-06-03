@@ -21,7 +21,7 @@ Slow Flight
 - Landing config flow
 - Pitch & trim for 55-60kts
 - Add power when roll in
-- Turns gently (≤15° bank)
+- Turns gently (<=15° bank)
 - Recover ("go-round"):
 
   - Full power & flaps 20°
@@ -48,7 +48,7 @@ Stall: Power Off
 - A: normal
 - M: full rich
 - C & O
-- Power to idle (≥1000 RPM for safety)
+- Power to idle (>=1000 RPM for safety)
 - Dump all flaps when airspeed permits
 - Pitch for Vg (68-70kts) (call out)
 - Pitch (slowly) to an attitude that induces a stall (call out) and wait
