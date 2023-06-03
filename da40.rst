@@ -226,7 +226,7 @@ Takeoff
 
   - Prop - 2400 RPM
   - Elect. Pump - off
-  - Ldg. Light - off
+  - Lights - as required
 
 .. raw:: latex
     
@@ -237,7 +237,7 @@ Climb
 - Vy (T/O)
 
   - 67-54 KIAS
-  - 68 minus 1.8 for each 100 lbs under 2646
+  - 68 minus 1.8 per 100 lbs under 2646
 
 - Cruise
 
@@ -293,19 +293,19 @@ Pre-Landing
 - ATIS/Rwys & Patterns
 - "CCGUMPSF"
 
-  - G: Fuel Selector
+  - :red:`G`: Fuel Selector
   
     - downwind/fullest
-  - M: Mixture - rich
-  - P: Elect. Pump - on
-  - P: Prop - high RPM
-  - S: Seat Belts - secure
-  - F: Flaps - as required
+  - :red:`M`: Mixture - rich
+  - :red:`P`: Elect. Pump - on
+  - :red:`P`: Prop - high RPM
+  - :red:`S`: Seat Belts - secure
+  - :red:`F`: Flaps - as required
 
-  - T/O <108 KIAS
-  - LDG <91 KIAS
+    - T/O <108 KIAS
+    - LDG <91 KIAS
 - Trim - as required
-- Ldg. Light - on
+- Lights - as required
 - Approach - 73-58 KIAS
 
 Go Around
