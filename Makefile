@@ -1,5 +1,7 @@
 .PHONY: all
 
+#.PRECIOUS: da40.tex
+
 all: c172s.pdf maneuver.pdf da40.pdf planning.pdf all-print.pdf c172s-print.pdf da40-print.pdf
 
 xwind.tex:

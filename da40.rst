@@ -1,8 +1,14 @@
-DA40-G1000 (Ted Yin v0.6)
--------------------------
+DA40-G1000 (Ted Yin v0.7)
+--------------------------
+
+Ground Operations
+-----------------
 
 .. role:: red
    :class: red
+
+.. role:: purple
+   :class: purple
 
 .. role:: everysymbol
    :class: everysymbol
@@ -39,6 +45,10 @@ Walkaround
 - Ties/Chocks
 - Final Walkaround
 
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxaqua!80,colback=gruvboxaqua!80}
+
 Pre-Start
 =========
 - Rear Door - secure
@@ -46,11 +56,11 @@ Pre-Start
 - Seat Belts
 - Parking/Brakes - test/set
 - Circuit Brkrs. - check
-- Passenger - brief
 - Strobe (ACL) - on
 - Avionics - off
 - Fuel Selector - least
 - Canopy - pos. 1/2
+- Passenger - brief
 
 Start
 =====
@@ -79,6 +89,10 @@ Start
 - Volts/Amps - [25-30] [>0]
 - Fuel Pressure - 14-35 psi
 - Mixture - lean (peak)
+
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxorange!80,colback=gruvboxorange!80}
 
 Pre-Taxi
 ========
@@ -122,6 +136,72 @@ Run-Up
 - Lights - as required
 - ADSB Handheld - on
 
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxblue!80,colback=gruvboxblue!80}
+
+Shutdown
+========
+- ELT - check (121.5)
+- Avionics - off
+- Electrical - off
+
+  - ACL Strobes - on
+- Throttle - 1000 RPM
+- Mags. - off then both
+- Mixture - idle cutoff
+- Mags. - key out
+- Tach Time - note
+- Master - off
+
+Post-Flight
+===========
+- ADSB Handheld - off
+- Tiedowns/Chocks
+- Pitot Cover
+- Gust Lock
+- Close Flight Plan
+- Hobbs Time - note
+- Check Under Seats
+- Canpoy/Door - lock
+- Post-Flight Walkaround
+
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxpurple!80,colback=gruvboxpurple!80}
+
+Airspeeds (KIAS)
+================
+
+- :red:`Vr` = 59
+- Weights
+
+  - 2646/2535/2205/1874 lbs
+- :red:`Vg` = 76/73/68/60
+- :red:`Vy(Up)` = 76/73/68/60
+- :red:`Vy(T/O)` = 67/66/60/54
+- Approach Speeds
+
+  - Up - 76/73/68/60
+  - T/O - 74/72/66/59
+  - LDG - 73/71/63/58
+
+- :red:`Va`
+
+  - MÄM 40-227
+
+    - yes - 111 @ 2284-2646
+    - no - 108 @ 2161-2535
+  - below 2161/2284 - 94
+
+.. raw:: latex
+
+   \newpage
+   \tcbset{colframe=gruvboxblue!80,colback=gruvboxblue!80}
+
+In-Flight Operations
+--------------------
+
 Pre-Takeoff
 ===========
 - Abort Plan/Lost Comm.
@@ -148,6 +228,9 @@ Takeoff
   - Elect. Pump - off
   - Ldg. Light - off
 
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxaqua!80,colback=gruvboxaqua!80}
 
 Climb
 =====
@@ -201,6 +284,10 @@ Descent
 
   - <= 50°F/22.8°C pm
 
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxorange!80,colback=gruvboxorange!80}
+
 Pre-Landing
 ===========
 - ATIS/Rwys & Patterns
@@ -243,31 +330,20 @@ Post-Landing
 - Lights - as required
 - Clearance - obtain
 
-Shutdown
-========
-- ELT - check (121.5)
-- Avionics - off
-- Electrical - off
+.. raw:: latex
+    
+   \tcbset{colframe=gruvboxred,colback=gruvboxred}
 
-  - ACL Strobes - on
-- Throttle - 1000 RPM
-- Mags. - off then both
-- Mixture - idle cutoff
-- Mags. - key out
-- Tach Time - note
-- Master - off
+CO Contamination
+================
 
-Post-Flight
-===========
-- ADSB Handheld - off
-- Tiedowns/Chocks
-- Pitot Cover
-- Gust Lock
-- Close Flight Plan
-- Hobbs Time - note
-- Check Under Seats
-- Canpoy/Door - lock
-- Post-Flight Walkaround
+- Cabin Heat - off
+- Ventilation - open
+- Emergency Windows - open
+- Forward Canopy
+
+  - partially open
+  - :red:`DO NOT lock/unlock rear door during flight`
 
 Engine Failure
 ==============
@@ -281,14 +357,15 @@ Engine Failure
 - :red:`Glide and Trim`
 
   - :red:`Speed: 76-60 KIAS`
-  - :red:`Ratio: 8.8, 1.45nm/1kft`
+  - Windmill: 1:8.8, 1.45nm/1kft
+  - Stationary: 1:10.3, 1.7nm/1kft
 - Wind and Landing Site
 - Longer Flow
 
   - Engine Inst.
   - Short Flow Again
 
-- Wind Restart
+- Windmill Restart
 
   - Airspeed >= 70 KIAS
   - Short Flow
@@ -313,48 +390,3 @@ Engine Failure
   - Belt and Seat - check
   - Unlatch Door
   - Brace
-
-CO Contamination
-================
-
-- Cabin Heat - off
-- Ventilation - open
-- Emergency Windows - open
-- Forward Canopy
-
-  - partially open
-  - :red:`DO NOT lock/unlock rear door during flight`
-
-Airspeeds (KIAS)
-================
-
-- Weights
-
-  - 2646/2535/2205/1874 lbs
-- Vr - 59
-- Vy
-
-  - Up - 76/73/68/60
-  - T/O - 67/66/60/54
-- Best Glide
-
-  - 76/73/68/60
-  - 70 @ 2300 lbs
-- Va
-
-  - MÄM 40-227
-
-    - no - 108 @ 2161-2535
-    - yes - 111 @ 2284-2646
-  - below 2161/2284 - 94
-  - 101 @ 2300 lbs
-
-- Approach Speeds
-
-  - Engine Out
-
-    - Up - 76/73/68/60
-    - T/O - 74/72/66/59
-    - LDG - 73/71/63/58
-
-  - Normal - 73/71/63/58

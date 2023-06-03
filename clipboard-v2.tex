@@ -16,7 +16,7 @@
 \usepackage{enumitem}
 \usepackage[explicit]{titlesec}
 \titlespacing*{\section}{0pt}{0ex}{1ex}
-\titlespacing*{\subsection}{0pt}{0.75ex plus .25ex}{0ex plus .25ex}
+\titlespacing*{\subsection}{0pt}{1ex plus .25ex}{0ex plus 0ex}
 \let\tempone\itemize
 \let\temptwo\enditemize
 \renewenvironment{itemize}{\tempone\addtolength{\itemsep}{-1pt}}{\temptwo}
@@ -25,16 +25,24 @@
 \setlist[itemize,2]{label=\textbullet,leftmargin=0ex,left=-5pt..1ex}
 \setlist[itemize,3]{label=$\cdot$, left=-5pt..0ex}
 
-\definecolor{airforceblue}{rgb}{0.29, 0.43, 0.53}
-\definecolor{alizarin}{rgb}{0.82, 0.1, 0.26}
+%\definecolor{airforceblue}{rgb}{0.29, 0.43, 0.53}
+%\definecolor{alizarin}{rgb}{0.82, 0.1, 0.26}
+\definecolor{gruvboxred}{HTML}{cc241d}
+\definecolor{gruvboxorange}{HTML}{d65d0e}
+\definecolor{gruvboxaqua}{HTML}{689d6a}
+\definecolor{gruvboxblue}{HTML}{458588}
+\definecolor{gruvboxpurple}{HTML}{b16286}
+\definecolor{gruvboxfg}{HTML}{282828}
+
 \tcbset{on line,
     boxsep=0.1ex, left=0pt,right=0pt,top=0pt,bottom=0pt,
-    colframe=airforceblue!80,
-    colback=airforceblue!80,
+    colframe=gruvboxblue!80,
+    colback=gruvboxblue!80,
 }
 \titleformat{\subsection}{\normalfont\bf\centering}{}{1em}{\vspace{-0.8ex}\tcbox[enhanced]{\parbox{\dimexpr\columnwidth-8ex}{\vskip-0.5ex\centering\strut\color{white}#1\vskip-.5ex}}\vspace{0.1ex}}%{}
-\titleformat{\section}{\normalfont\bf\color{alizarin}}{}{1em}{#1}
-\newcommand{\DUrolered}[1]{{\color{alizarin}#1}}
+\titleformat{\section}{\normalfont\bf\color{gruvboxfg}}{}{1em}{#1}
+\newcommand{\DUrolered}[1]{{\color{gruvboxred}#1}}
+\newcommand{\DUrolepurple}[1]{{\color{gruvboxpurple}#1}}
 \newcommand{\DUroleeverysymbol}[1]{{$\bm{\curvearrowright}$#1}}
 
 \newcommand\myPunchHole{%
