@@ -368,9 +368,8 @@ Engine Failure
 - Windmill Restart
 
   - Airspeed >= 70 KIAS
-  - Short Flow
   - Mags. - :red:`both`
-  - Mixture - lean and slowly richen
+  - Mixture - lean then slowly richen
 
 - Stationary Restart
 
