@@ -234,20 +234,21 @@ Takeoff
 
 Climb
 =====
-- Vy (T/O)
+- T/O
 
-  - 67-54 KIAS
-  - 68 minus 1.8 per 100 lbs under 2646
+  - Vy = 67-54 KIAS
+
+    - 68 minus 1.8 per 100 lbs under 2646
 
 - Cruise
 
   - Flaps - up
-  - Vy: 76-60 KIAS
+  - Vy = 76-60 KIAS
 
-- Prop - 2400 RPM
 - Mixture - rich
 
   - >5000 hold const. EGT
+- Prop - 2400 RPM
 - Throttle - full
 - Engine Inst. - green
 - Trim - as required
@@ -264,6 +265,7 @@ Cruise
   - Economy: max EGT & <=75%
 
     - Power: 100°F/55°C lower
+- High Altitude - pump on
 - Flow Check (:everysymbol:`15 min`)
 
   - Trim, Fuel
@@ -282,7 +284,7 @@ Descent
 - Flow Check
 - CHT Cool Down
 
-  - <= 50°F/22.8°C pm
+  - <= 50°F(22.8°C) per min.
 
 .. raw:: latex
     
