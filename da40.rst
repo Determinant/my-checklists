@@ -1,4 +1,4 @@
-DA40-G1000 (Ted Yin v0.7)
+DA40-G1000 (Ted Yin v0.8)
 --------------------------
 
 Ground Operations
@@ -7,8 +7,20 @@ Ground Operations
 .. role:: red
    :class: red
 
-.. role:: purple
-   :class: purple
+.. role:: important
+   :class: important
+
+.. role:: pump
+   :class: pump
+
+.. role:: throttle
+   :class: throttle
+
+.. role:: mixture
+   :class: mixture
+
+.. role:: prop
+   :class: prop
 
 .. role:: everysymbol
    :class: everysymbol
@@ -96,7 +108,7 @@ Start
 
 Pre-Taxi
 ========
-- Flaps - up, then T/O
+- Flaps - UP, then T/O
 - Lights - as required
 - Avionics - on/set
 - GPS - DB date
@@ -166,6 +178,18 @@ Post-Flight
 - Canpoy/Door - lock
 - Post-Flight Walkaround
 
+Flooded Engine
+==============
+- Electric Pump - off
+- Mixture - lean (full aft)
+- Throttle - 1/2 position
+- Mags. - start
+- When engine fires:
+
+  - Throttle - idle
+  - Mixture - rich (rapidly)
+- Finish up normal start
+
 .. raw:: latex
     
    \tcbset{colframe=gruvboxpurple!80,colback=gruvboxpurple!80}
@@ -208,9 +232,8 @@ Pre-Takeoff
 - Canopy/Door - lock
 - Fuel Selector - fullest
 - Flaps - T/O
-- Mixture - rich
-- Prop - high RPM
-- Electric Pump - on
+- :mixture:`Mixture` - rich
+- :prop:`Prop` - high RPM
 - Pitot Heat - as required
 - Review Airspeeds
 - Time - note/start
@@ -219,13 +242,14 @@ Takeoff
 =======
 - "Lights, Camera, Action"
 
+  - :pump:`Electric Pump` - on
   - Mixture/Prop/Throttle
 - Engine Inst. - green
 - Vr - 59; then 67-60 KIAS
 - Safe Altitude
 
-  - Prop - 2400 RPM
-  - Elect. Pump - off
+  - :prop:`Prop` - 2400 RPM
+  - :pump:`Pump` - off
   - Lights - as required
 
 .. raw:: latex
@@ -234,42 +258,40 @@ Takeoff
 
 Climb
 =====
-- T/O
+- T/O: Vy = 67-54 KIAS
 
-  - Vy = 67-54 KIAS
-
-    - 68 minus 1.8 per 100 lbs under 2646
+  - 68 minus 1.8 per 100 lbs under 2646
 
 - Cruise
 
-  - Flaps - up
+  - Flaps - UP
   - Vy = 76-60 KIAS
 
-- Mixture - rich
+- :mixture:`Mixture` - rich
 
   - >5000 hold const. EGT
-- Prop - 2400 RPM
-- Throttle - full
+- :prop:`Prop` - 2400 RPM
+- :throttle:`Throttle` - full
 - Engine Inst. - green
 - Trim - as required
-- High Altitude - pump on
+- High Altitude - :pump:`pump` on
 
 Cruise
 ======
-- Flaps - up
-- Throttle - 21-24"
-- Prop - 1800-2400 RPM
-- Mixture
+- Flaps - UP
+- :throttle:`Throttle` - 21-24"
+- :prop:`Prop` - 1800-2400 RPM
+- :mixture:`Mixture`
 
   - Higher Power - richen
   - Economy: max EGT & <=75%
 
-    - Power: 100°F/55°C lower
-- High Altitude - pump on
+    - Best: 100°F(55°C) lower
+- High Altitude - :pump:`pump` on
 - Flow Check (:everysymbol:`15 min`)
 
-  - Trim, Fuel
-  - Mixture, Prop, Throttle
+  - Trim, Fuel (Switch tanks)
+  - Mixture/Prop/Throttle
   - Flaps, Engine Inst.
   - Pump, Mag., Master
 - CHT: 150-400°F
@@ -277,11 +299,10 @@ Cruise
 
 Descent
 =======
-- Mixture - richen slowly
-- Prop - 1800-2400 RPM
-- Throttle - as required
-- High Altitude - pump on
-- Flow Check
+- :mixture:`Mixture` - richen slowly
+- :throttle:`Throttle` - as required
+- :prop:`Prop` - 1800-2400 RPM
+- High Altitude - :pump:`pump` on
 - CHT Cool Down
 
   - <= 50°F(22.8°C) per min.
@@ -298,9 +319,9 @@ Pre-Landing
   - :red:`G`: Fuel Selector
   
     - downwind/fullest
-  - :red:`M`: Mixture - rich
-  - :red:`P`: Elect. Pump - on
-  - :red:`P`: Prop - high RPM
+  - :red:`M`: :mixture:`Mixture` - rich
+  - :red:`P`: :prop:`Prop` - high RPM
+  - :red:`P`: :pump:`Pump` - on
   - :red:`S`: Seat Belts - secure
   - :red:`F`: Flaps - as required
 
@@ -312,21 +333,22 @@ Pre-Landing
 
 Go Around
 =========
-- Throttle - full
+- :throttle:`Throttle` - full
 - Vy - 67-54 KIAS
 - Flaps - T/O
 - Safe Altitude
 
-  - Prop - 2400 RPM
-  - Elect. Pump - off
+  - :prop:`Prop` - 2400 RPM
+  - :pump:`Pump` - off
+  - Lights - as required
   - Cruise Climb
 
 Post-Landing
 ============
-- Throttle - 1000 RPM
-- Mixture - lean
-- Flaps - up
-- Elect. Pump - off
+- :throttle:`Throttle` - 1000 RPM
+- :mixture:`Mixture` - lean
+- Flaps - UP
+- :pump:`Electric Pump` - off
 - Pitot Heat - off
 - Trim - T/O
 - Lights - as required
@@ -342,23 +364,20 @@ CO Contamination
 - Cabin Heat - off
 - Ventilation - open
 - Emergency Windows - open
-- Forward Canopy
-
-  - partially open
-  - :red:`DO NOT lock/unlock rear door during flight`
+- Forward Canopy - partially open (DO NOT lock/unlock :important:`rear door` during flight)
 
 Engine Failure
 ==============
 - Short Flow
 
   - Fuel Selector - fullest
-  - Mixture - full/check
-  - Elect. Pump - on
+  - :mixture:`Mixture` - full/check
+  - :pump:`Pump` - on
   - Alternate Air - on
   - Mags. - check all
-- :red:`Glide and Trim`
+- :important:`Glide and Trim`
 
-  - :red:`Speed: 76-60 KIAS`
+  - :important:`Speed: 76-60 KIAS`
   - Windmill: 1:8.8, 1.45nm/1kft
   - Stationary: 1:10.3, 1.7nm/1kft
 - Wind and Landing Site
@@ -370,8 +389,8 @@ Engine Failure
 - Windmill Restart
 
   - Airspeed >= 70 KIAS
-  - Mags. - :red:`both`
-  - Mixture - lean then slowly richen
+  - :important:`Mags. - both`
+  - :mixture:`Mixture` - lean then slowly richen
 
 - Stationary Restart
 
@@ -379,15 +398,37 @@ Engine Failure
   - Electrical - off
   - Avionics - off
   - Master - on
-  - Mags. - :red:`start`
+  - :important:`Mags. - start`
 
 
-- :red:`No Restart`
+- :important:`No Restart`
 
   - Fuel Selector - off
-  - Mixture - idle cutoff
+  - :mixture:`Mixture` - idle cutoff
   - Mags. - off
   - Master - off
   - Belt and Seat - check
   - Unlatch Door
   - Brace
+
+Engine Fire
+===========
+- Cabin Heat - off
+- Emergency Descent
+- Landing is ensured
+
+  - Fuel Selector - off
+  - :throttle:`Throttle` - full
+  - :pump:`Pump` - off
+  - Master - on
+  - Emergency Windows - open
+- Engine-off Landing
+
+Electrical Fire
+===============
+- Cabin Heat - off
+- Emergency Switch - on
+- Master - off
+- Emergency Windows - open
+- Forward Canopy - partially
+- Land ASAP

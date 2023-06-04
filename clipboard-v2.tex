@@ -5,6 +5,7 @@
 \usepackage{nopageno}
 \usepackage{xcolor}
 \usepackage{amssymb}
+\usepackage{soul}
 \usepackage{bm}
 \usepackage[most]{tcolorbox}
 \usepackage[quiet]{fontspec}
@@ -31,8 +32,12 @@
 \definecolor{gruvboxorange}{HTML}{d65d0e}
 \definecolor{gruvboxaqua}{HTML}{689d6a}
 \definecolor{gruvboxblue}{HTML}{458588}
+\definecolor{gruvboxblue2}{HTML}{076678}
 \definecolor{gruvboxpurple}{HTML}{b16286}
+\definecolor{gruvboxyellow2}{HTML}{fabd2f}
 \definecolor{gruvboxfg}{HTML}{282828}
+\definecolor{white}{HTML}{ffffff}
+\definecolor{blue}{HTML}{1e90ff}
 
 \tcbset{on line,
     boxsep=0.1ex, left=0pt,right=0pt,top=0pt,bottom=0pt,
@@ -42,8 +47,16 @@
 
 \titleformat{\subsection}{\normalfont\bf\centering}{}{1em}{\vspace{-0.8ex}\tcbox[enhanced]{\parbox{\dimexpr\columnwidth-8ex}{\vskip-0.5ex\centering\strut\color{white}#1\vskip-.5ex}}\vspace{0.1ex}}%{}
 \titleformat{\section}{\normalfont\bf\color{gruvboxfg}}{}{1em}{#1}
+\newcommand{\taggedaction}[3]{{\color{#2}\fcolorbox{white}{#1}{\raisebox{0ex}[1ex][-1ex]{#3}}}}
 \newcommand{\DUrolered}[1]{{\color{gruvboxred}#1}}
 \newcommand{\DUrolepurple}[1]{{\color{gruvboxpurple}#1}}
+\newcommand{\DUroleblue}[1]{{\color{gruvboxblue2}#1}}
+\newcommand{\DUrolethrottle}[1]{\taggedaction{gruvboxfg}{white}{#1}}
+\newcommand{\DUrolemixture}[1]{\taggedaction{gruvboxred}{white}{#1}}
+\newcommand{\DUroleprop}[1]{\taggedaction{blue}{white}{#1}}
+\newcommand{\DUrolepump}[1]{\taggedaction{gruvboxpurple}{white}{#1}}
+\newcommand{\DUroleimportant}[1]{\taggedaction{gruvboxyellow2}{gruvboxfg}{#1}}
+
 \newcommand{\DUroleeverysymbol}[1]{{$\bm{\curvearrowright}$#1}}
 
 \newcommand\myPunchHole{%
