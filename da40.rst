@@ -1,4 +1,4 @@
-DA40-G1000 (Ted Yin v0.8)
+DA40-G1000 (Ted Yin v0.8a)
 --------------------------
 
 Ground Operations
@@ -203,7 +203,7 @@ Airspeeds (KIAS)
   - 2646/2535/2205/1874 lbs
 - :red:`Vg` = 76/73/68/60
 - :red:`Vy(Up)` = 76/73/68/60
-- :red:`Vy(T/O)` = 67/66/60/54
+- :red:`Climb(T/O)` = 67/66/60/54
 - Approach Speeds
 
   - Up - 76/73/68/60
@@ -265,7 +265,7 @@ Climb
 - Cruise
 
   - Flaps - UP
-  - Vy = 76-60 KIAS
+  - Airspeed = 76-60 KIAS
 
 - :mixture:`Mixture` - rich
 
