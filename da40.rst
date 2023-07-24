@@ -1,5 +1,5 @@
-DA40-G1000 (Ted Yin v0.8a)
---------------------------
+DA40-G1000 (Ted Yin v0.9)
+-------------------------
 
 Ground Operations
 -----------------
@@ -7,7 +7,7 @@ Ground Operations
 .. role:: red
    :class: red
 
-.. role:: important
+.. role:: imp
    :class: important
 
 .. role:: pump
@@ -28,19 +28,20 @@ Ground Operations
 Initial
 =======
 - Papers - A.R.O.W.
-- Controls - free & correct
 - Mags. - key out
-- Mixture - idle cutoff
-- Throttle - idle
 - Electrical - off
-- Essential Bus - off
 - Avionics - off
+- Essential Bus - off
+- Mixture - idle cutoff
+- Prop - high RPM
+- Throttle - idle
 - Master - on
-- Fuel Pump - check
-- Fuel - note
 - Flaps - check & set T/O
 - Lights/Pitot - test
+- Fuel Pump - check
+- Fuel - note
 - Master - off
+- Controls - free & correct
 - Hobbs Time - note
 
 Walkaround
@@ -53,7 +54,7 @@ Walkaround
 - Exhaust/Antennas
 - Prop/Air Intakes x3
 - Pitot/Static/Stall
-- Gear/Tires/Brakes
+- Struts/Tires/Brakes
 - Ties/Chocks
 - Final Walkaround
 
@@ -70,6 +71,7 @@ Pre-Start
 - Circuit Brkrs. - check
 - Strobe (ACL) - on
 - Avionics - off
+- Essential Bus - off
 - Fuel Selector - least
 - Canopy - pos. 1/2
 - Passenger - brief
@@ -91,15 +93,17 @@ Start
 
     - Mixture - 3-5 sec
     - Throttle - 0.4"
+- Electric Pump - off
 - "Prop Clear!"
 - Mags. - start
+
+  - Mixture - rich
 - Throttle - 1000 RPM
 - Oil Pressure - 15 secs.
-- Electric Pump - off
-- Master Alt. - on
-- Engine Inst. - no Xs
-- Volts/Amps - [25-30] [>0]
 - Fuel Pressure - 14-35 psi
+- Master Alt. - on
+- Volts/Amps - [25-30] [>0]
+- Engine Inst. - no Xs
 - Mixture - lean (peak)
 
 .. raw:: latex
@@ -139,7 +143,7 @@ Run-Up
 - Mixture - rich
 - Throttle - 2000 RPM
 - Cycle Prop x3 - 250-500
-- Mags. L/R - 175, 50.
+- Mags. L/R - -175, +/-50
 - Alternate Air - check
 - Engine Inst. - check
 - Idle Check
@@ -198,6 +202,7 @@ Airspeeds (KIAS)
 ================
 
 - :red:`Vr` = 59
+- :red:`Vs0` = 49, :red:`Vs1` = 52
 - Weights
 
   - 2646/2535/2205/1874 lbs
@@ -217,6 +222,8 @@ Airspeeds (KIAS)
     - yes - 111 @ 2284-2646
     - no - 108 @ 2161-2535
   - below 2161/2284 - 94
+
+- Steep Turn: <=45°, >=68
 
 .. raw:: latex
 
@@ -316,14 +323,14 @@ Pre-Landing
 - ATIS/Rwys & Patterns
 - "CCGUMPSF"
 
-  - :red:`G`: Fuel Selector
+  - :imp:`G` Fuel Selector
   
     - downwind/fullest
-  - :red:`M`: :mixture:`Mixture` - rich
-  - :red:`P`: :prop:`Prop` - high RPM
-  - :red:`P`: :pump:`Pump` - on
-  - :red:`S`: Seat Belts - secure
-  - :red:`F`: Flaps - as required
+  - :imp:`M` :mixture:`Mixture` - rich
+  - :imp:`P` :prop:`Prop` - high RPM
+  - :imp:`P` :pump:`Pump` - on
+  - :imp:`S` Seat Belts - secure
+  - :imp:`F` Flaps - as required
 
     - T/O <108 KIAS
     - LDG <91 KIAS
@@ -364,7 +371,7 @@ CO Contamination
 - Cabin Heat - off
 - Ventilation - open
 - Emergency Windows - open
-- Forward Canopy - partially open (DO NOT lock/unlock :important:`rear door` during flight)
+- Forward Canopy - partially open (DO NOT lock/unlock :imp:`rear door` during flight)
 
 Engine Failure
 ==============
@@ -375,9 +382,9 @@ Engine Failure
   - :pump:`Pump` - on
   - Alternate Air - on
   - Mags. - check all
-- :important:`Glide and Trim`
+- :imp:`Glide and Trim`
 
-  - :important:`Speed: 76-60 KIAS`
+  - :imp:`Speed: 76-60 KIAS`
   - Windmill: 1:8.8, 1.45nm/1kft
   - Stationary: 1:10.3, 1.7nm/1kft
 - Wind and Landing Site
@@ -389,7 +396,7 @@ Engine Failure
 - Windmill Restart
 
   - Airspeed >= 70 KIAS
-  - :important:`Mags. - both`
+  - :imp:`Mags. - both`
   - :mixture:`Mixture` - lean then slowly richen
 
 - Stationary Restart
@@ -398,10 +405,10 @@ Engine Failure
   - Electrical - off
   - Avionics - off
   - Master - on
-  - :important:`Mags. - start`
+  - :imp:`Mags. - start`
 
 
-- :important:`No Restart`
+- :imp:`No Restart`
 
   - Fuel Selector - off
   - :mixture:`Mixture` - idle cutoff
