@@ -12,6 +12,7 @@ xwind.tex:
 	rst2latex --no-doc-title --documentclass article --documentoptions 10pt --stylesheet=./clipboard-v2.tex $< > $@
 	sed -i '/^\\begin{document}.*/a \\\\begin{multicols*}{3}' $@
 	sed -i '/^\\end{document}.*/i \\\\end{multicols*}' $@
+	sed -i ':a;/\\item/s/\(.*\) - \(.*\)/\1{}\\mydotfill{}\2/g;ta' $@
 
 planning.tex: planning.rst
 	rst2latex --no-doc-title --documentclass article --documentoptions 10pt --stylesheet=./clipboard-v2.tex $< > $@

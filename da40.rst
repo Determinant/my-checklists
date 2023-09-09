@@ -1,5 +1,5 @@
-DA40-G1000 (Ted Yin v0.9)
--------------------------
+DA40-180 (Ted Yin v1.0)
+-----------------------
 
 Ground Operations
 -----------------
@@ -28,6 +28,7 @@ Ground Operations
 Initial
 =======
 - Papers - A.R.O.W.
+- Fire Extinguisher - check
 - Mags. - key out
 - Electrical - off
 - Avionics - off
@@ -46,7 +47,6 @@ Initial
 
 Walkaround
 ==========
-- Canopy/Door - check
 - Fuel/Oil - test/sample
 - Caps/Drains/Vents
 - Surfaces/Controls
@@ -56,6 +56,7 @@ Walkaround
 - Pitot/Static/Stall
 - Struts/Tires/Brakes
 - Ties/Chocks
+- Canopy/Door
 - Final Walkaround
 
 .. raw:: latex
@@ -66,7 +67,7 @@ Pre-Start
 =========
 - Rear Door - secure
 - Rudder Pedals - adjust
-- Seat Belts
+- Seat Belts - on
 - Parking/Brakes - test/set
 - Circuit Brkrs. - check
 - Strobe (ACL) - on
@@ -102,7 +103,7 @@ Start
 - Oil Pressure - 15 secs.
 - Fuel Pressure - 14-35 psi
 - Master Alt. - on
-- Volts/Amps - [25-30] [>0]
+- Volts/Amps - 25-30V/2-75A
 - Engine Inst. - no Xs
 - Mixture - lean (peak)
 
@@ -130,23 +131,23 @@ Run-Up
 - Seat Belts - check
 - Canopy/Door - lock
 - Door Warning - off
-- Flight Controls - correct
+- Flight Controls - check
 - Instruments - scan
 - Alternate Static - check
 - AP - MET/HDG
 - Trim - T/O
 - Fuel Selector - fullest
-- Hdg./Alt. Bugs
-- GPS/Status Bar/Ann. Test
-- MFD Range/Track Up
-- Comm/Nav/VOR/FP
+- Heading/Altitude - set
+- Aux/GPS/Ann. - check
+- MFD Range/Track Up - set
+- Comm/Nav/FPL - set
 - Mixture - rich
 - Throttle - 2000 RPM
 - Cycle Prop x3 - 250-500
 - Mags. L/R - -175, +/-50
 - Alternate Air - check
-- Engine Inst. - check
-- Idle Check
+- Engine - check
+- Throttle - idle
 - Throttle - 1000 RPM
 - Mixture - lean
 - Lights - as required
@@ -154,7 +155,7 @@ Run-Up
 
 .. raw:: latex
     
-   \tcbset{colframe=gruvboxblue!80,colback=gruvboxblue!80}
+   \tcbset{colframe=gruvboxgreen!80,colback=gruvboxgreen!80}
 
 Shutdown
 ========
@@ -173,14 +174,14 @@ Shutdown
 Post-Flight
 ===========
 - ADSB Handheld - off
-- Tiedowns/Chocks
-- Pitot Cover
-- Gust Lock
-- Close Flight Plan
+- Flight Plan - close
 - Hobbs Time - note
-- Check Under Seats
+- Under Seats - check
+- Gust Lock - on
+- Pitot Cover - on
+- Tiedowns/Chocks - on
 - Canpoy/Door - lock
-- Post-Flight Walkaround
+- Post-Flight - walkaround
 
 Flooded Engine
 ==============
@@ -201,14 +202,12 @@ Flooded Engine
 Airspeeds (KIAS)
 ================
 
-- :red:`Vr` = 59
-- :red:`Vs0` = 49, :red:`Vs1` = 52
-- Weights
-
-  - 2646/2535/2205/1874 lbs
-- :red:`Vg` = 76/73/68/60
-- :red:`Vy(Up)` = 76/73/68/60
-- :red:`Climb(T/O)` = 67/66/60/54
+- :red:`Vr` - 59
+- :red:`Vs0` - 49, :red:`Vs1` - 52
+- Weights - 2646/2535/2205/1874 lbs
+- :red:`Vg` - 76/73/68/60
+- :red:`Vy(Up)` - 76/73/68/60
+- :red:`Climb(T/O)` - 67/66/60/54
 - Approach Speeds
 
   - Up - 76/73/68/60
@@ -219,16 +218,16 @@ Airspeeds (KIAS)
 
   - MÄM 40-227
 
-    - yes - 111 @ 2284-2646
-    - no - 108 @ 2161-2535
-  - below 2161/2284 - 94
+    - yes - 111 @ 2646-2284
+    - no - 108 @ 2535-2161
+  - o/w 94 @ below 2284/2161
 
 - Steep Turn: <=45°, >=68
 
 .. raw:: latex
 
    \newpage
-   \tcbset{colframe=gruvboxblue!80,colback=gruvboxblue!80}
+   \tcbset{colframe=gruvboxgreen!80,colback=gruvboxgreen!80}
 
 In-Flight Operations
 --------------------
@@ -242,6 +241,7 @@ Pre-Takeoff
 - :mixture:`Mixture` - rich
 - :prop:`Prop` - high RPM
 - Pitot Heat - as required
+- (Air Conditioner - off)
 - Review Airspeeds
 - Time - note/start
 
@@ -252,7 +252,7 @@ Takeoff
   - :pump:`Electric Pump` - on
   - Mixture/Prop/Throttle
 - Engine Inst. - green
-- Vr - 59; then 67-60 KIAS
+- Vr - 59, then - 67-60
 - Safe Altitude
 
   - :prop:`Prop` - 2400 RPM
@@ -265,14 +265,10 @@ Takeoff
 
 Climb
 =====
-- T/O: Vy = 67-54 KIAS
-
-  - 68 minus 1.8 per 100 lbs under 2646
-
-- Cruise
+- T/O: Vy - 67-54 KIAS
+- Cruise - 76-60 KIAS
 
   - Flaps - UP
-  - Airspeed = 76-60 KIAS
 
 - :mixture:`Mixture` - rich
 
@@ -290,19 +286,18 @@ Cruise
 - :prop:`Prop` - 1800-2400 RPM
 - :mixture:`Mixture`
 
+  - Economy - max EGT, <=75%
+  - Best - 100°F(55°C) lower
   - Higher Power - richen
-  - Economy: max EGT & <=75%
-
-    - Best: 100°F(55°C) lower
 - High Altitude - :pump:`pump` on
 - Flow Check (:everysymbol:`15 min`)
 
-  - Trim, Fuel (Switch tanks)
+  - Trim, Switch Tanks
   - Mixture/Prop/Throttle
   - Flaps, Engine Inst.
   - Pump, Mag., Master
-- CHT: 150-400°F
-- Oil: 165-220°F
+- CHT - 150-400°F
+- Oil - 165-220°F
 
 Descent
 =======
@@ -312,7 +307,7 @@ Descent
 - High Altitude - :pump:`pump` on
 - CHT Cool Down
 
-  - <= 50°F(22.8°C) per min.
+  - <= 50°F(22.8°C)/min.
 
 .. raw:: latex
     
@@ -320,23 +315,22 @@ Descent
 
 Pre-Landing
 ===========
-- ATIS/Rwys & Patterns
+- ATIS/Rwys/Approach Plan
 - "CCGUMPSF"
 
   - :imp:`G` Fuel Selector
-  
-    - downwind/fullest
   - :imp:`M` :mixture:`Mixture` - rich
   - :imp:`P` :prop:`Prop` - high RPM
   - :imp:`P` :pump:`Pump` - on
   - :imp:`S` Seat Belts - secure
   - :imp:`F` Flaps - as required
 
-    - T/O <108 KIAS
-    - LDG <91 KIAS
+    - T/O - <108 KIAS
+    - LDG - <91 KIAS
 - Trim - as required
 - Lights - as required
-- Approach - 73-58 KIAS
+- Approach Speed - 73-58
+- (Air Conditioner - off)
 
 Go Around
 =========
@@ -371,7 +365,7 @@ CO Contamination
 - Cabin Heat - off
 - Ventilation - open
 - Emergency Windows - open
-- Forward Canopy - partially open (DO NOT lock/unlock :imp:`rear door` during flight)
+- Canopy - open (partially, :imp:`DO NOT unlock rear door` during flight)
 
 Engine Failure
 ==============
@@ -384,39 +378,39 @@ Engine Failure
   - Mags. - check all
 - :imp:`Glide and Trim`
 
-  - :imp:`Speed: 76-60 KIAS`
-  - Windmill: 1:8.8, 1.45nm/1kft
-  - Stationary: 1:10.3, 1.7nm/1kft
+  - Airspeed - :imp:`76-60 KIAS`
+  - Windmill - 1.45nm/1kft
+  - Stationary - 1.7nm/1kft
 - Wind and Landing Site
 - Longer Flow
 
-  - Engine Inst.
-  - Short Flow Again
+  - Engine Inst. - check
+  - Short Flow
 
-- Windmill Restart
+- :imp:`Windmill Restart`
 
-  - Airspeed >= 70 KIAS
-  - :imp:`Mags. - both`
+  - Airspeed - 70-80 KIAS
+  - Mags. - :imp:`both`
   - :mixture:`Mixture` - lean then slowly richen
 
-- Stationary Restart
+- :imp:`Stationary Restart`
 
-  - Airspeed >= 80 KIAS
+  - Airspeed - 80 KIAS
   - Electrical - off
   - Avionics - off
   - Master - on
-  - :imp:`Mags. - start`
+  - Mags. - :imp:`start`
 
 
-- :imp:`No Restart`
+- :imp:`Engine-off Landing`
 
   - Fuel Selector - off
   - :mixture:`Mixture` - idle cutoff
   - Mags. - off
   - Master - off
   - Belt and Seat - check
-  - Unlatch Door
-  - Brace
+  - Flaps - LDG (when able)
+  - Unlatch Door?/Brace
 
 Engine Fire
 ===========
@@ -433,9 +427,9 @@ Engine Fire
 
 Electrical Fire
 ===============
-- Cabin Heat - off
 - Emergency Switch - on
 - Master - off
+- Cabin Heat - off
 - Emergency Windows - open
-- Forward Canopy - partially
+- Canopy - partially
 - Land ASAP
