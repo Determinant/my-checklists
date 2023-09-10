@@ -1,4 +1,5 @@
 \usepackage[top=0.2in,bottom=0.2in,left=0.25in,right=0.05in,paperheight=8.5in,paperwidth=5.5in]{geometry}
+\usepackage{relsize}
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage{atbegshi}
@@ -24,7 +25,7 @@
 \let\temptwo\enditemize%
 \renewenvironment{itemize}{\tempone\addtolength{\itemsep}{-1pt}}{\temptwo}
 \setlist{nolistsep}
-\setlist[itemize,1]{label={\scriptsize$\blacktriangleright$},align=parleft,left=0pt..1em}
+\setlist[itemize,1]{label={\raisebox{0.30ex}[0ex][0ex]{\smaller[3.25]$\blacktriangleright$}},align=parleft,left=0pt..1em}
 \setlist[itemize,2]{label=\textbullet,leftmargin=0ex,left=-5pt..1ex}
 \setlist[itemize,3]{label=$\cdot$, left=-5pt..0ex}
 
@@ -47,7 +48,7 @@
     colback=gruvboxgreen!80,
 }
 
-\titleformat{\subsection}{\normalfont\centering}{}{1em}{\vspace{-0.8ex}\tcbox[enhanced]{\parbox{\dimexpr\columnwidth-8ex}{\vskip-0.5ex\centering\strut\color{white}#1\vskip-.5ex}}\vspace{0.1ex}}%{}
+\titleformat{\subsection}{\normalfont\centering}{}{1em}{\vspace{-0.8ex}\tcbox[enhanced,arc=0.2em]{\parbox{\dimexpr\columnwidth-0.5em}{\vskip-0.5ex\centering\strut\color{white}#1\vskip-.5ex}}\vspace{0.1ex}}%{}
 \titleformat{\section}{\normalfont\color{gruvboxfg}}{}{1em}{#1}
 \newcommand{\taggedaction}[3]{{\color{#2}\fcolorbox{white}{#1}{\raisebox{0ex}[1ex][-1ex]{#3}}}}
 \newcommand{\DUrolered}[1]{{\color{red}#1}}
