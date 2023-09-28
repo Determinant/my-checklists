@@ -31,5 +31,5 @@ planning.tex: planning.rst
 		'\end{document}' > $@
 
 
-all.pdf: da40.pdf c172s.pdf
-	pdftk A=da40.pdf B=c172s.pdf cat A B output $@
+all.pdf: da40.pdf planning.pdf c172s.pdf
+	pdftk A=da40.pdf B=c172s.pdf C=planning.pdf cat A B C output $@
