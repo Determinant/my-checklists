@@ -24,10 +24,16 @@
 \let\tempone\itemize%
 \let\temptwo\enditemize%
 \renewenvironment{itemize}{\tempone\addtolength{\itemsep}{-1pt}}{\temptwo}
+\let\tempthree\enumerate%
+\let\tempfour\endenumerate%
+\renewenvironment{enumerate}{\tempthree\addtolength{\itemsep}{-1pt}}{\tempfour}
 \setlist{nolistsep}
 \setlist[itemize,1]{label={\raisebox{0.30ex}[0ex][0ex]{\smaller[3.25]$\blacktriangleright$}},align=parleft,left=0pt..0.65em}
 \setlist[itemize,2]{label=\textbullet,leftmargin=0ex,left=-2pt..0.5em}
 \setlist[itemize,3]{label=$\cdot$, left=-5pt..0ex}
+\setlist[enumerate,1]{left=-1pt..0.95em}
+\setlist[enumerate,2]{left=-2pt..0.5em}
+\setlist[enumerate,3]{left=-5pt..0ex}
 
 \definecolor{gruvboxred}{HTML}{cc241d}
 \definecolor{gruvboxorange}{HTML}{d65d0e}

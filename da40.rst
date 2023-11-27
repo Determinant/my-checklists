@@ -1,5 +1,5 @@
-DA40-180 (Ted Yin v1.0a)
-------------------------
+DA40-180 (Ted Yin v1.1)
+-----------------------
 
 Ground Operations
 -----------------
@@ -39,7 +39,6 @@ Initial
 - Master - on
 - Flaps - check & set T/O
 - Lights/Pitot - test
-- Fuel Pump - check
 - Fuel - note
 - Master - off
 - Controls - free & correct
@@ -50,7 +49,6 @@ Walkaround
 - Fuel/Oil - test/sample
 - Caps/Drains/Vents
 - Surfaces/Controls
-- Stall Strips/Fairings
 - Exhaust/Antennas
 - Prop/Air Intakes x3
 - Pitot/Static/Stall
@@ -93,7 +91,7 @@ Start
 
   - Mixture - 3-5 sec
   - Throttle - 0.4"
-- "Prop Clear!"
+- "Clear Prop!"
 - Mags. - start
 
   - Mixture - rich
@@ -102,10 +100,7 @@ Start
 - Oil Pressure - 15 sec
 - Electric Pump - off
 - Alternators - on
-- Engine Inst. - check
-
-  - Fuel Pressure - 14-35 psi
-  - Volts/Amps - 25-30V/2-75A
+- Engine Indicators - check
 
 .. raw:: latex
     
@@ -120,7 +115,7 @@ Pre-Taxi
 - ATIS - PFD/backup/AP(?)
 - Radio - test
 - Transponder - check
-- Check - TC/AI/HSI<->MC
+- Check - AI/HSI(MC)/TC
 - Clearance - obtain
 - Brakes - release/test
 
@@ -141,7 +136,6 @@ Run-Up
   - MFD Range/Track Up - set
   - Instruments - scan
   - Lights - as required
-  - (ADSB Handheld - on)
 
 - Engine
 
@@ -151,6 +145,13 @@ Run-Up
   - Cycle Prop x3 - -250~500
   - Mags. L/R - -175, +/-50
   - Alternate Air - check
+  - (Standby Alternator)
+
+    - Master (Alt.) - off
+    - STBYALT ON - on
+    - Electrical Load - increase
+    - STBYALT ON - flashing
+    - Master (Alt.) - on
   - Indicators - check
   - Throttle - idle
   - Throttle - 1000 RPM
@@ -178,7 +179,6 @@ Shutdown
 
 Post-Flight
 ===========
-- (ADSB Handheld - off)
 - Flight Plan - close
 - Hobbs Time - note
 - Under Seats - check
@@ -225,7 +225,7 @@ Airspeeds (KIAS)
   - no - 108 @ 2535-2161
   - o/w - 94 @ <2284/2161
 
-- Turn: 30/45/60° - 58/68/83
+- Bank: 30/45/60° - 58/68/83
 
 .. raw:: latex
 
