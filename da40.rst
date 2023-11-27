@@ -259,7 +259,7 @@ Takeoff
 - Vr - 59, then - 67-60
 - Safe Altitude
 
-  - :prop:`Prop` - 2400 RPM
+  - :prop:`Prop` - as required
   - :pump:`Pump` - off
   - Lights - as required
 
@@ -277,7 +277,7 @@ Climb
 - :mixture:`Mixture` - rich
 
   - >5000 hold const. EGT
-- :prop:`Prop` - 2400 RPM
+- :prop:`Prop` - as required
 - :throttle:`Throttle` - full
 - Engine Inst. - green
 - Trim - as required
@@ -343,7 +343,7 @@ Go Around
 - Flaps - T/O
 - Safe Altitude
 
-  - :prop:`Prop` - 2400 RPM
+  - :prop:`Prop` - as required
   - :pump:`Pump` - off
   - Lights - as required
   - Cruise Climb
