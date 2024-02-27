@@ -112,7 +112,7 @@ Pre-Taxi
 - Lights - as required
 - Avionics - on/set
 - Fuel Totalizer - enter
-- ATIS - PFD/backup/AP(?)
+- ATIS - PFD/backup/(AP)
 - Radio - test
 - Transponder - check
 - Check - AI/HSI(MC)/TC
