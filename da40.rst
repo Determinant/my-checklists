@@ -1,4 +1,4 @@
-DA40-180 (Ted Yin v1.1)
+DA40-180 (Ted Yin v1.2)
 -----------------------
 
 Ground Operations
@@ -145,14 +145,16 @@ Run-Up
   - Cycle Prop x3 - -250~500
   - Mags. L/R - -175, +/-50
   - Alternate Air - check
+  - Indicators - check
   - (Standby Alternator)
 
     - Master (Alt.) - off
-    - STBYALT ON - on
-    - Electrical Load - increase
+    - STBYALT ON - glow
+    - Elect. Load - increase
     - STBYALT ON - flashing
     - Master (Alt.) - on
-  - Indicators - check
+    - STBYALT ON - dark
+    - Elect. Load - normal
   - Throttle - idle
   - Throttle - 1000 RPM
   - Mixture - lean
@@ -183,8 +185,7 @@ Post-Flight
 - Hobbs Time - note
 - Under Seats - check
 - Gust Lock - on
-- Pitot Cover - on
-- Tiedowns/Chocks - on
+- Covers/Tiedowns/Chocks - on
 - Canpoy/Door - lock
 
 Flooded Engine
